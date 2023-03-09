@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/entrar.css" />
+    <title>Página de Loign</title>
+  </head>
+  <body>
+   
+    <div class="total">
+      
+      <div class="entrar">
+        <h1>Lista de Recados</h1>
+       
+        <p>Faça seu login agora mesmo!</p>
+        <br>
+        <div id="msgError"></div>
+
+        <div class="container">
+          
+          <input type="text" id="usuario" paceholder="" required />
+          <label id="userLabel" for="usuario" > E-mail</label>
+        </div>
+
+        <div class="container">
+          <input type="password" id="senha" paceholder="" required />
+          <label id="senhaLabel" for="senha">Senha</label>
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+
+        
+        <div class="botao">
+          <button onclick="entrar()">Entrar</button>
+        </div>
+      
+      
+        <br>
+        <br>
+
+        <p>
+          Ainda não tem uma conta?
+          <a href="/sair.html"> Cadastre-se</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="./JS/entrar.js"></script>
+  </body>
+</html>
